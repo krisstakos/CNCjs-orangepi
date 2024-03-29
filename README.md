@@ -15,7 +15,7 @@ docker build -t cncjs:latest <path_to_dockerfile_directory>
 ## Running
 
 ```bash
-ocker run --privileged --rm --detach --volume /cncjs:/cncjs --publish 80:8000 cncjs:latest
+docker run --privileged --rm --detach --volume /cncjs:/cncjs --publish 80:8000 cncjs:latest
 ```
 
 ## Contributing
